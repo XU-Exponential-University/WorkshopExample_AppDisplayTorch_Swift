@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2FC03F923FE8D9C00CA6A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC03F823FE8D9C00CA6A81 /* AppDelegate.swift */; };
+		C2FC03FB23FE8D9C00CA6A81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC03FA23FE8D9C00CA6A81 /* SceneDelegate.swift */; };
+		C2FC03FD23FE8D9C00CA6A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC03FC23FE8D9C00CA6A81 /* ViewController.swift */; };
+		C2FC040023FE8D9C00CA6A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FC03FE23FE8D9C00CA6A81 /* Main.storyboard */; };
+		C2FC040323FE8D9C00CA6A81 /* DisplayTorch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2FC040123FE8D9C00CA6A81 /* DisplayTorch.xcdatamodeld */; };
+		C2FC040523FE8DB500CA6A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FC040423FE8DB500CA6A81 /* Assets.xcassets */; };
+		C2FC040823FE8DB500CA6A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FC040623FE8DB500CA6A81 /* LaunchScreen.storyboard */; };
+		C2FC041323FE8DB500CA6A81 /* DisplayTorchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC041223FE8DB500CA6A81 /* DisplayTorchTests.swift */; };
+		C2FC041E23FE8DB500CA6A81 /* DisplayTorchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC041D23FE8DB500CA6A81 /* DisplayTorchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2FC040F23FE8DB500CA6A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2FC03ED23FE8D9C00CA6A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FC03F423FE8D9C00CA6A81;
+			remoteInfo = DisplayTorch;
+		};
+		C2FC041A23FE8DB500CA6A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2FC03ED23FE8D9C00CA6A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FC03F423FE8D9C00CA6A81;
+			remoteInfo = DisplayTorch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2FC03F523FE8D9C00CA6A81 /* DisplayTorch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayTorch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FC03F823FE8D9C00CA6A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2FC03FA23FE8D9C00CA6A81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2FC03FC23FE8D9C00CA6A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2FC03FF23FE8D9C00CA6A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2FC040223FE8D9C00CA6A81 /* DisplayTorch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DisplayTorch.xcdatamodel; sourceTree = "<group>"; };
+		C2FC040423FE8DB500CA6A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2FC040723FE8DB500CA6A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2FC040923FE8DB500CA6A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FC040E23FE8DB500CA6A81 /* DisplayTorchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayTorchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FC041223FE8DB500CA6A81 /* DisplayTorchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTorchTests.swift; sourceTree = "<group>"; };
+		C2FC041423FE8DB500CA6A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FC041923FE8DB500CA6A81 /* DisplayTorchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayTorchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FC041D23FE8DB500CA6A81 /* DisplayTorchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTorchUITests.swift; sourceTree = "<group>"; };
+		C2FC041F23FE8DB500CA6A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2FC03F223FE8D9C00CA6A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FC040B23FE8DB500CA6A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FC041623FE8DB500CA6A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2FC03EC23FE8D9C00CA6A81 = {
+			isa = PBXGroup;
+			children = (
+				C2FC03F723FE8D9C00CA6A81 /* DisplayTorch */,
+				C2FC041123FE8DB500CA6A81 /* DisplayTorchTests */,
+				C2FC041C23FE8DB500CA6A81 /* DisplayTorchUITests */,
+				C2FC03F623FE8D9C00CA6A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2FC03F623FE8D9C00CA6A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2FC03F523FE8D9C00CA6A81 /* DisplayTorch.app */,
+				C2FC040E23FE8DB500CA6A81 /* DisplayTorchTests.xctest */,
+				C2FC041923FE8DB500CA6A81 /* DisplayTorchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2FC03F723FE8D9C00CA6A81 /* DisplayTorch */ = {
+			isa = PBXGroup;
+			children = (
+				C2FC03F823FE8D9C00CA6A81 /* AppDelegate.swift */,
+				C2FC03FA23FE8D9C00CA6A81 /* SceneDelegate.swift */,
+				C2FC03FC23FE8D9C00CA6A81 /* ViewController.swift */,
+				C2FC03FE23FE8D9C00CA6A81 /* Main.storyboard */,
+				C2FC040423FE8DB500CA6A81 /* Assets.xcassets */,
+				C2FC040623FE8DB500CA6A81 /* LaunchScreen.storyboard */,
+				C2FC040923FE8DB500CA6A81 /* Info.plist */,
+				C2FC040123FE8D9C00CA6A81 /* DisplayTorch.xcdatamodeld */,
+			);
+			path = DisplayTorch;
+			sourceTree = "<group>";
+		};
+		C2FC041123FE8DB500CA6A81 /* DisplayTorchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FC041223FE8DB500CA6A81 /* DisplayTorchTests.swift */,
+				C2FC041423FE8DB500CA6A81 /* Info.plist */,
+			);
+			path = DisplayTorchTests;
+			sourceTree = "<group>";
+		};
+		C2FC041C23FE8DB500CA6A81 /* DisplayTorchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FC041D23FE8DB500CA6A81 /* DisplayTorchUITests.swift */,
+				C2FC041F23FE8DB500CA6A81 /* Info.plist */,
+			);
+			path = DisplayTorchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2FC03F423FE8D9C00CA6A81 /* DisplayTorch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FC042223FE8DB500CA6A81 /* Build configuration list for PBXNativeTarget "DisplayTorch" */;
+			buildPhases = (
+				C2FC03F123FE8D9C00CA6A81 /* Sources */,
+				C2FC03F223FE8D9C00CA6A81 /* Frameworks */,
+				C2FC03F323FE8D9C00CA6A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisplayTorch;
+			productName = DisplayTorch;
+			productReference = C2FC03F523FE8D9C00CA6A81 /* DisplayTorch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2FC040D23FE8DB500CA6A81 /* DisplayTorchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FC042523FE8DB500CA6A81 /* Build configuration list for PBXNativeTarget "DisplayTorchTests" */;
+			buildPhases = (
+				C2FC040A23FE8DB500CA6A81 /* Sources */,
+				C2FC040B23FE8DB500CA6A81 /* Frameworks */,
+				C2FC040C23FE8DB500CA6A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FC041023FE8DB500CA6A81 /* PBXTargetDependency */,
+			);
+			name = DisplayTorchTests;
+			productName = DisplayTorchTests;
+			productReference = C2FC040E23FE8DB500CA6A81 /* DisplayTorchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2FC041823FE8DB500CA6A81 /* DisplayTorchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FC042823FE8DB500CA6A81 /* Build configuration list for PBXNativeTarget "DisplayTorchUITests" */;
+			buildPhases = (
+				C2FC041523FE8DB500CA6A81 /* Sources */,
+				C2FC041623FE8DB500CA6A81 /* Frameworks */,
+				C2FC041723FE8DB500CA6A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FC041B23FE8DB500CA6A81 /* PBXTargetDependency */,
+			);
+			name = DisplayTorchUITests;
+			productName = DisplayTorchUITests;
+			productReference = C2FC041923FE8DB500CA6A81 /* DisplayTorchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2FC03ED23FE8D9C00CA6A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "XU Exponential University";
+				TargetAttributes = {
+					C2FC03F423FE8D9C00CA6A81 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C2FC040D23FE8DB500CA6A81 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C2FC03F423FE8D9C00CA6A81;
+					};
+					C2FC041823FE8DB500CA6A81 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C2FC03F423FE8D9C00CA6A81;
+					};
+				};
+			};
+			buildConfigurationList = C2FC03F023FE8D9C00CA6A81 /* Build configuration list for PBXProject "DisplayTorch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2FC03EC23FE8D9C00CA6A81;
+			productRefGroup = C2FC03F623FE8D9C00CA6A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2FC03F423FE8D9C00CA6A81 /* DisplayTorch */,
+				C2FC040D23FE8DB500CA6A81 /* DisplayTorchTests */,
+				C2FC041823FE8DB500CA6A81 /* DisplayTorchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2FC03F323FE8D9C00CA6A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FC040823FE8DB500CA6A81 /* LaunchScreen.storyboard in Resources */,
+				C2FC040523FE8DB500CA6A81 /* Assets.xcassets in Resources */,
+				C2FC040023FE8D9C00CA6A81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FC040C23FE8DB500CA6A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FC041723FE8DB500CA6A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2FC03F123FE8D9C00CA6A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FC03FD23FE8D9C00CA6A81 /* ViewController.swift in Sources */,
+				C2FC03F923FE8D9C00CA6A81 /* AppDelegate.swift in Sources */,
+				C2FC03FB23FE8D9C00CA6A81 /* SceneDelegate.swift in Sources */,
+				C2FC040323FE8D9C00CA6A81 /* DisplayTorch.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FC040A23FE8DB500CA6A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FC041323FE8DB500CA6A81 /* DisplayTorchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FC041523FE8DB500CA6A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FC041E23FE8DB500CA6A81 /* DisplayTorchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2FC041023FE8DB500CA6A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FC03F423FE8D9C00CA6A81 /* DisplayTorch */;
+			targetProxy = C2FC040F23FE8DB500CA6A81 /* PBXContainerItemProxy */;
+		};
+		C2FC041B23FE8DB500CA6A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FC03F423FE8D9C00CA6A81 /* DisplayTorch */;
+			targetProxy = C2FC041A23FE8DB500CA6A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2FC03FE23FE8D9C00CA6A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FC03FF23FE8D9C00CA6A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2FC040623FE8DB500CA6A81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FC040723FE8DB500CA6A81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2FC042023FE8DB500CA6A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2FC042123FE8DB500CA6A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2FC042323FE8DB500CA6A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DisplayTorch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xu-university.DisplayTorch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2FC042423FE8DB500CA6A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DisplayTorch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xu-university.DisplayTorch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2FC042623FE8DB500CA6A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DisplayTorchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xu-university.DisplayTorchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisplayTorch.app/DisplayTorch";
+			};
+			name = Debug;
+		};
+		C2FC042723FE8DB500CA6A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DisplayTorchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xu-university.DisplayTorchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisplayTorch.app/DisplayTorch";
+			};
+			name = Release;
+		};
+		C2FC042923FE8DB500CA6A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DisplayTorchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xu-university.DisplayTorchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisplayTorch;
+			};
+			name = Debug;
+		};
+		C2FC042A23FE8DB500CA6A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DisplayTorchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xu-university.DisplayTorchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisplayTorch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2FC03F023FE8D9C00CA6A81 /* Build configuration list for PBXProject "DisplayTorch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FC042023FE8DB500CA6A81 /* Debug */,
+				C2FC042123FE8DB500CA6A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FC042223FE8DB500CA6A81 /* Build configuration list for PBXNativeTarget "DisplayTorch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FC042323FE8DB500CA6A81 /* Debug */,
+				C2FC042423FE8DB500CA6A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FC042523FE8DB500CA6A81 /* Build configuration list for PBXNativeTarget "DisplayTorchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FC042623FE8DB500CA6A81 /* Debug */,
+				C2FC042723FE8DB500CA6A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FC042823FE8DB500CA6A81 /* Build configuration list for PBXNativeTarget "DisplayTorchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FC042923FE8DB500CA6A81 /* Debug */,
+				C2FC042A23FE8DB500CA6A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2FC040123FE8D9C00CA6A81 /* DisplayTorch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2FC040223FE8D9C00CA6A81 /* DisplayTorch.xcdatamodel */,
+			);
+			currentVersion = C2FC040223FE8D9C00CA6A81 /* DisplayTorch.xcdatamodel */;
+			path = DisplayTorch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2FC03ED23FE8D9C00CA6A81 /* Project object */;
+}
